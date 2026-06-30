@@ -48,5 +48,5 @@
 ## <a name="thanks"></a>Благодарности
 
 - Автор «Стрелочек» [Onigiri](https://github.com/ArtemOnigiri)
-- Автор элементов, взятых мной [Сhubrik](https://github.com/chubrik) ([Ссылка на элементы, которые я позаимствовал](https://logic-arrows.io/map-YL7AZ6SC))
+- Автор элементов, взятых мной, а также моего примера для документации [Сhubrik](https://github.com/chubrik) ([Ссылка на элементы, которые я позаимствовал](https://logic-arrows.io/map-YL7AZ6SC)) ([Ссылка на документацию к компьютеру Чубрика]([https://logic-arrows.io/map-YL7AZ6SC](https://github.com/chubrik/LogicArrows/tree/main/ru/computer-v1)))
 - Автор библиотеки на Python, чтобы преобразовать машинный код в вид, который можно вставть в игру (для ассемблера) [Kala-telo](https://github.com/kala-telo)
