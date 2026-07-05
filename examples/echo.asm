@@ -1,0 +1,4 @@
+.org 0x01
+INP
+STA 0xF0
+HLT
