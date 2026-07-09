@@ -229,21 +229,12 @@ def game_output(bytes):
             point_y = i % 16
             point_x = i // 16
         else:
-            if point_y != 0:
-                m.set(point_x * 30, point_y * 7, Arrow(type=ArrowType.Pulse))
-                for n, j in enumerate(i[::-1], start=1):
-                    if j == "0":
-                        m.set(point_x * 30 + n, point_y * 7, Arrow(type=ArrowType.Unknown))
-                    else:
-                        m.set(point_x * 30 + n, point_y * 7, Arrow(type=ArrowType.Pulse))
-
-            else:
-                m.set(point_x * 30, point_y * 7 + 1, Arrow(type=ArrowType.Pulse))
-                for n, j in enumerate(i[::-1], start=1):
-                    if j == "0":
-                        m.set(point_x * 30 + n, point_y * 7 + 1, Arrow(type=ArrowType.Unknown))
-                    else:
-                        m.set(point_x * 30 + n, point_y * 7 + 1, Arrow(type=ArrowType.Pulse))
+            m.set(point_x * 30, point_y * 7, Arrow(type=ArrowType.Pulse))
+            for n, j in enumerate(i[::-1], start=1):
+                if j == "0":
+                    m.set(point_x * 30 + n, point_y * 7, Arrow(type=ArrowType.Unknown))
+                else:
+                    m.set(point_x * 30 + n, point_y * 7, Arrow(type=ArrowType.Pulse))
 
             point_y += 1
             if point_y == 16:
