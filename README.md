@@ -56,21 +56,17 @@
     <tr>
       <td width="50%">
         <h3><a href="examples/hello_world.asm">Вывод смайлика на экран (Hello world вывести пока нельзя, т.к. нет букв, поэтому пока такая замена)</a></h3>
-        <a href="examples/hello_world.asm"><img src="img/" alt="Hello world"></a>
       </td>
       <td>
         <h3><a href="examples/calculate.asm">Калькулятор (самый лучший  по функционалу, но самый медленный)</a></h3>
-        <a href="computer-v1/README.md"><img src="computer-v1/img/summary.jpg" alt="Computer v1"></a>
       </td>
     </tr>
     <tr>
       <td>
         <h3><a href="examples/.asm">Программа отладки (для чтения и записи значений в памяти)</a></h3>
-        <a href="examples/.asm"><img src="img/" alt="read_write"></a>
       </td>
       <td>
         <h3><a href="examples/.asm">Пример</a></h3>
-        <a href="examples/.asm"><img src="img/" alt="example"></a>
       </td>
     </tr>
   </thead>
