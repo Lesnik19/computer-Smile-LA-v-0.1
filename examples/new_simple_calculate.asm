@@ -9,7 +9,7 @@ JMP 0x10
 INP
 STA sum
 INP
-.byte 0b00011000
+.byte 0b00011000    ; ADD
 sum:
 .byte 0
 CMP 10
