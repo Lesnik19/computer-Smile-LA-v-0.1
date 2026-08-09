@@ -4,6 +4,8 @@
 
 .org 0x01
 
+SCREEN = 0xF0
+
 bios:
 LDI 0x12
 STA 0xF0
@@ -12,5 +14,24 @@ CMP 2
 JZ two
 
 one:
+LDI 0xEF
+STA SCREEN
+JMP bios
 
 two:
+INP
+STA sum
+INP
+.byte 0b00011000
+sum:
+.byte 0
+CMP 10
+JC ten
+ADD 0xF0
+STA SCREEN
+JMP bios
+ten:
+SUB 10
+ADD 0x10
+STA SCREEN
+JMP bios
