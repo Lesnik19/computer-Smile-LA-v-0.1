@@ -61,7 +61,7 @@
         <h3><a href="examples/hello_world.asm">Вывод смайлика на экран (Hello world вывести пока нельзя, т.к. нет букв, поэтому пока такая замена)</a></h3>
       </td>
       <td>
-        <h3><a href="examples/calculate.asm">Калькулятор (самый лучший  по функционалу, но самый медленный)</a></h3>
+        <h3><a href="examples/simple_calculate.asm">Калькулятор</a></h3>
       </td>
     </tr>
   </thead>
